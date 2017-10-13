@@ -7,7 +7,7 @@ end
 def batch_badge_creator(luminaries)
   badges = []
   luminaries.each do |names|
-    badges <<  "Hello, my name is #{name}."
+    return badges <<  "Hello, my name is #{name}."
   end
   badges
 end
